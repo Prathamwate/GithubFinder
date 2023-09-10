@@ -11,6 +11,7 @@ searchBtn.addEventListener('click', () => {
                 if (data.message === 'Not Found') {
                     displayError('User not found');
                 } else {
+                    console.log(data);
                     displayUserProfile(data);
                 }
             })
@@ -28,16 +29,19 @@ function fetchUserProfile(username) {
 
 function displayUserProfile(user) {
     const html = `
-        <div class="data">
+       <div class="data">
+        <div class="profileSection">
             <img src="${user.avatar_url}" alt="${user.login}" width="100">
-            <h2>${user.login}</h2>
-            <p>Name: ${user.name || 'N/A'}</p>
-            <p>Location: ${user.location || 'N/A'}</p>
-            <p>Followers: ${user.followers}</p>
-            <p>Following: ${user.following}</p>
-            <p>Public Repos: ${user.public_repos}</p>
-            <a href="${user.html_url}" target="_blank">View Profile</a>
+            <p>${user.name}
+            <span><a href="${user.html_url}" target="_blank"> @${user.login ||'N/A'}</a></span></p>
+            <h5 class="join">Joined : ${new Date(user.created_at).toLocaleDateString()}</h5>
         </div>
+        <div class="userDetails">
+        <div class="item-1"><p>Followers${user.followers}</p> </div>
+        <div class="item-1"><p>Following:${user.following}</p> </div>
+        <div class="item-1"><p>Public Repos:${user.public_repos}</p> </div>
+        </div>
+     </div>
          `;
     profile.innerHTML = html;
 }
