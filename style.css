@@ -7,12 +7,12 @@ body {
     flex-direction: column;
     gap: 20px;
     margin-left: 5%;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 .search-data{
     background-color: #EDEDED;
-    margin-right: 400px;
-    height: 70px;
+    width: 60%;
+    height: 60px;
     border-radius: 20px;
     position: relative;
 }
@@ -22,7 +22,7 @@ body {
 } 
 #profile{
     background-color: #EDEDED;
-    margin-right: 400px;
+    margin-right: 300px;
     height: 50vh;
 }
 #search{
@@ -78,7 +78,7 @@ body {
     width: 55rem;
     height: 65px;
     background-color: #ffffff;
-    margin-left: 5%;
+    margin-left: 3%;
     justify-content: space-between;
     align-items: center;
     border-radius: 10px;
@@ -86,8 +86,8 @@ body {
 }
 
 .mode{
-    width: 100px;
-    height: 40px;
+    width: 80px;
+    height: 30px;
     border-radius: 5px;
 }
 
