@@ -21,6 +21,30 @@
 - JavaScript
 - GitHub API
 
+### Functionalities Used
+
+To complete this task, I used the following JavaScript functionalities:
+
+1. **Fetching Data from an API**: I used the `fetch` function to make an HTTP request to the github API and retrieve the github account .
+
+2. **DOM Manipulation**: I manipulated the DOM to display the retrieved account on the webpage. I used JavaScript to create and append HTML elements dynamically.
+
+3. **Event Listeners**: I added event listeners to specific elements to handle user interactions.
+
+## How I Accomplished the Task
+
+Here is a brief overview of how I accomplished the task:
+
+1. I used the github api to fetch account.
+
+2. I used the `fetch` function to make a GET request to the github API using the provided URL.
+
+3. Once I received the response from the API, I parsed the JSON data to extract the github account details.
+
+4. I dynamically created HTML elements to display the github acccount information on the webpage, ensuring they are properly formatted and styled.
+
+5. Finally, I hosted the project on a web server to provide a hosted link for submission.
+
 ## Getting Started
 
 To get started with the GitHub Account Finder web application, follow these steps:
@@ -31,4 +55,5 @@ bash
 git clone https://github.com/Prathamwate/GithubFinder/
 
 ## demo 
+- https://prathamwate.github.io/GithubFinder/
 
