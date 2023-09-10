@@ -27,5 +27,8 @@ To get started with the GitHub Account Finder web application, follow these step
 
 1. Clone the repository to your local machine:
 
-```bash
-git clone https://github.com/your-username/github-account-finder.git
+bash
+git clone https://github.com/Prathamwate/GithubFinder/
+
+## demo 
+
