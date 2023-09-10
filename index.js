@@ -2,6 +2,10 @@ const searchBtn = document.getElementById('searchBtn');
 const searchInput = document.getElementById('search');
 const profile = document.getElementById('profile');
 
+
+const darkmode=document.getElementById("dark");
+const lightmode=document.getElementById("light");
+
 searchBtn.addEventListener('click', () => {
     const username = searchInput.value.trim();
 
@@ -49,3 +53,11 @@ function displayUserProfile(user) {
 function displayError(message) {
     profile.innerHTML = `<p class="error">${message}</p>`;
 }
+
+darkmode.addEventListener("click", () => {
+    document.body.style.backgroundColor = "black";
+})
+
+lightmode.addEventListener("click", () => {
+    document.body.style.backgroundColor = "white";
+})
