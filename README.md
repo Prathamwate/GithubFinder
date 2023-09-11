@@ -45,15 +45,8 @@ Here is a brief overview of how I accomplished the task:
 
 5. Finally, I hosted the project on a web server to provide a hosted link for submission.
 
-## Getting Started
 
-To get started with the GitHub Account Finder web application, follow these steps:
-
-1. Clone the repository to your local machine:
-
-bash
-git clone https://github.com/Prathamwate/GithubFinder/
 
 ## demo 
-- https://prathamwate.github.io/GithubFinder/
+- [Link](https://prathamwate.github.io/Pokemon/?type=)
 
