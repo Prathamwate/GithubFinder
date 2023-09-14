@@ -48,5 +48,5 @@ Here is a brief overview of how I accomplished the task:
 
 
 ## demo 
-- [Link](https://prathamwate.github.io/Pokemon/?type=)
+- [Link](https://prathamwate.github.io/GithubFinder/)
 
